@@ -2,14 +2,14 @@
 @include('partials/admin.jexactyl.nav', ['activeTab' => 'index'])
 
 @section('title')
-    Jexactyl Settings
+    Dashy Settings
 @endsection
 
 @section('content-header')
-    <h1>Jexactyl Settings<small>Configure Jexactyl-specific settings for the Panel.</small></h1>
+    <h1>Dashy Settings<small>Configure Dashy-specific settings for the Panel.</small></h1>
     <ol class="breadcrumb">
         <li><a href="{{ route('admin.index') }}">Admin</a></li>
-        <li class="active">Jexactyl</li>
+        <li class="active">Dashy</li>
     </ol>
 @endsection
 
@@ -25,13 +25,13 @@
                 @endif
             ">
                 <div class="box-header with-border">
-                    <i class="fa fa-code-fork"></i> <h3 class="box-title">Software Release <small>Verify Jexactyl is up-to-date.</small></h3>
+                    <i class="fa fa-code-fork"></i> <h3 class="box-title">Software Release <small>Verify Dashy is up-to-date.</small></h3>
                 </div>
                 <div class="box-body">
                     @if ($version->isLatestPanel())
-                        You are running Jexactyl <code>{{ config('app.version') }}</code>. 
+                        You are running Dashy <code>{{ config('app.version') }}</code>. 
                     @else
-                        Jexactyl is not up-to-date. Latest release is available <a href="https://github.com/jexactyl/jexactyl/releases/v{{ $version->getPanel() }}" target="_blank">here</a>.
+                        Dashy is not up-to-date. Latest release is available <a href="https://github.com/justkoru-txc/dashyreleases/v{{ $version->getPanel() }}" target="_blank">here</a>.
                     @endif
                 </div>
             </div>
