@@ -36,14 +36,12 @@ const DiscordFormContainer = ({ children }: { children: React.ReactNode }) => {
                     <div css={tw`flex-1`}>{children}</div>
                 </div>
                 <p css={tw`text-neutral-500 text-xs mt-6 sm:float-left`}>
-                    &copy; <a href={'https://jexactyl.com'}>Jexactyl,</a> built on{' '}
-                    <a href={'https://pterodactyl.io'}>Pterodactyl.</a>
-                </p>
-                <p css={tw`text-neutral-500 text-xs mt-6 sm:float-right`}>
-                    <a href={'https://jexactyl.com'}> Site </a>
-                    &bull;
-                    <a href={'https://github.com/jexactyl/jexactyl'}> GitHub </a>
-                </p>
+            &copy; 2022 <a href={'https://dashypanel.txcproject.com'}>Dashy</a> made by{' '}
+            <a href={'https://txcproject.com'}>Xaloc Media.</a>
+        </p>
+        <p css={tw`text-neutral-500 text-xs mt-6 sm:float-right`}>
+            <a href={'https://dashypanel.txcproject.com'}> Site </a>
+        </p>
             </Wrapper>
         </div>
     );
