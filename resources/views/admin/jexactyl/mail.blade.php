@@ -2,11 +2,11 @@
 @include('partials/admin.jexactyl.nav', ['activeTab' => 'mail'])
 
 @section('title')
-    Jexactyl Mail
+    Dashy Mail
 @endsection
 
 @section('content-header')
-    <h1>Mail Settings<small>Configure how Pterodactyl should handle sending emails.</small></h1>
+    <h1>Mail Settings<small>Configure how Dashy should handle sending emails.</small></h1>
     <ol class="breadcrumb">
         <li><a href="{{ route('admin.index') }}">Admin</a></li>
         <li class="active">Settings</li>
