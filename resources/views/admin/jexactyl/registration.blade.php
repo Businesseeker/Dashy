@@ -2,14 +2,14 @@
 @include('partials/admin.jexactyl.nav', ['activeTab' => 'registration'])
 
 @section('title')
-    Jexactyl Settings
+    Dashy Settings
 @endsection
 
 @section('content-header')
-    <h1>User Registration<small>Configure settings for user registration on Jexactyl.</small></h1>
+    <h1>User Registration<small>Configure settings for user registration on Dashy.</small></h1>
     <ol class="breadcrumb">
         <li><a href="{{ route('admin.index') }}">Admin</a></li>
-        <li class="active">Jexactyl</li>
+        <li class="active">Dashy</li>
     </ol>
 @endsection
 
